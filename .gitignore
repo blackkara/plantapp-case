@@ -48,7 +48,6 @@ app.*.map.json
 !.gitignore
 !.metadata
 !.flutter-plugins
-!.flutter-plugins-dependencies
 !.vscode/
 
 ios/Podfile.lock
