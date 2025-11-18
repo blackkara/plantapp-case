@@ -56,3 +56,4 @@ macos/Podfile.lock
 
 *.freezed.dart
 *.g.dart
+*.config.dart
