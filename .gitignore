@@ -53,3 +53,6 @@ app.*.map.json
 ios/Podfile.lock
 macos/Podfile
 macos/Podfile.lock
+
+*.freezed.dart
+*.g.dart
