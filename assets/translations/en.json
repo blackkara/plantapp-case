@@ -1,0 +1,27 @@
+{
+  "greeting": {
+    "hi": "Hi, plant lover!",
+    "good_morning": "Good Morning!",
+    "good_afternoon": "Good Afternoon!",
+    "good_evening": "Good Evening!"
+  },
+  "search": {
+    "placeholder": "Search for plants"
+  },
+  "premium": {
+    "title": "FREE Premium Available",
+    "subtitle": "Tap to upgrade your account!"
+  },
+  "categories": {
+    "title": "Categories"
+  },
+  "questions": {
+    "title": "Get plant care guides"
+  },
+  "bottom_nav": {
+    "home": "Home",
+    "diagnose": "Diagnose",
+    "my_garden": "My Garden",
+    "profile": "Profile"
+  }
+}

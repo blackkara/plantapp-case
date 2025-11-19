@@ -1,0 +1,8 @@
+<svg width="360" height="175" viewBox="0 0 360 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple leaf shapes as fallback -->
+  <ellipse cx="80" cy="50" rx="30" ry="15" fill="#4CAF50" fill-opacity="0.3" transform="rotate(-20 80 50)"/>
+  <ellipse cx="280" cy="120" rx="25" ry="12" fill="#66BB6A" fill-opacity="0.4" transform="rotate(45 280 120)"/>
+  <ellipse cx="150" cy="30" rx="20" ry="10" fill="#81C784" fill-opacity="0.2" transform="rotate(30 150 30)"/>
+  <ellipse cx="320" cy="40" rx="18" ry="9" fill="#A5D6A7" fill-opacity="0.3" transform="rotate(-45 320 40)"/>
+  <ellipse cx="50" cy="140" rx="22" ry="11" fill="#4CAF50" fill-opacity="0.25" transform="rotate(60 50 140)"/>
+</svg>

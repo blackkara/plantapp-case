@@ -1,0 +1,27 @@
+{
+  "greeting": {
+    "hi": "Merhaba, bitki sever!",
+    "good_morning": "Günaydın!",
+    "good_afternoon": "İyi günler!",
+    "good_evening": "İyi akşamlar!"
+  },
+  "search": {
+    "placeholder": "Bitki ara"
+  },
+  "premium": {
+    "title": "ÜCRETSİZ Premium Mevcut",
+    "subtitle": "Hesabını yükseltmek için dokun!"
+  },
+  "categories": {
+    "title": "Kategoriler"
+  },
+  "questions": {
+    "title": "Bitki bakım rehberleri al"
+  },
+  "bottom_nav": {
+    "home": "Ana Sayfa",
+    "diagnose": "Teşhis",
+    "my_garden": "Bahçem",
+    "profile": "Profil"
+  }
+}

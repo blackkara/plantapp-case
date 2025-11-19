@@ -1,0 +1,27 @@
+{
+  "greeting": {
+    "hi": "مرحبا، عاشق النباتات!",
+    "good_morning": "صباح الخير!",
+    "good_afternoon": "مساء الخير!",
+    "good_evening": "مساء الخير!"
+  },
+  "search": {
+    "placeholder": "ابحث عن النباتات"
+  },
+  "premium": {
+    "title": "Premium مجاني متاح",
+    "subtitle": "اضغط لترقية حسابك!"
+  },
+  "categories": {
+    "title": "الفئات"
+  },
+  "questions": {
+    "title": "احصل على أدلة العناية بالنباتات"
+  },
+  "bottom_nav": {
+    "home": "الرئيسية",
+    "diagnose": "التشخيص",
+    "my_garden": "حديقتي",
+    "profile": "الملف الشخصي"
+  }
+}
