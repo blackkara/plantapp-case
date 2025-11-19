@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 import 'package:widgetbook_annotation/widgetbook_annotation.dart' as widgetbook;
 import 'package:device_frame_plus/device_frame_plus.dart';
+import 'package:plantapp_case/core/theme/app_theme.dart';
 
 import 'main.directories.g.dart';
 
@@ -21,12 +22,12 @@ class WidgetbookApp extends StatelessWidget {
         MaterialThemeAddon(
           themes: [
             WidgetbookTheme(
-              name: 'Light Theme',
-              data: ThemeData.light(useMaterial3: true),
+              name: 'App Light Theme',
+              data: AppTheme.lightTheme,
             ),
             WidgetbookTheme(
-              name: 'Dark Theme', 
-              data: ThemeData.dark(useMaterial3: true),
+              name: 'App Dark Theme', 
+              data: AppTheme.darkTheme,
             ),
           ],
         ),
@@ -38,7 +39,8 @@ class WidgetbookApp extends StatelessWidget {
           ],
         ),
         TextScaleAddon(
-          scales: [1.0, 1.2, 1.5],
+          min: 1.0,
+          max: 1.5,
         ),
         LocalizationAddon(
           locales: [

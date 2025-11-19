@@ -1107,7 +1107,7 @@ packages:
     source: hosted
     version: "3.20.1"
   widgetbook_annotation:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: widgetbook_annotation
       sha256: "55504431b15eedef3c1fc4af2d108ac98b32610b59d4a4e2eea87a8515d17eef"
