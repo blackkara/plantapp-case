@@ -19,7 +19,7 @@ class AppTheme {
         onSurface: AppColors.textPrimary,
       ),
       textTheme: TextTheme(
-        titleLarge: AppTextStyles.titleLargeBold,
+        titleLarge: AppTextStyles.titleLargeSemiBold,
         titleMedium: AppTextStyles.titleMedium,
         bodyMedium: AppTextStyles.bodyMedium,
         bodySmall: AppTextStyles.caption,

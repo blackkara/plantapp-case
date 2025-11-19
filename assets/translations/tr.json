@@ -43,5 +43,12 @@
       "faq": "SSS",
       "contact_us": "bizimle iletişime geçin"
     }
+  },
+  "get_started": {
+    "welcome_title_normal": "",
+    "welcome_title_highlight": "PlantApp'e Hoş Geldiniz",
+    "welcome_subtitle": "3000+ bitkiyi %88 doğrulukla tanımlayın.",
+    "get_started_button": "Başlayın",
+    "terms_text": "İleri'ye dokunarak PlantID Kullanım Koşulları ve Gizlilik Politikası'nı kabul etmiş olursunuz."
   }
 }

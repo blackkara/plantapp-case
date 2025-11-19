@@ -43,5 +43,12 @@
       "faq": "FAQ",
       "contact_us": "contact us"
     }
+  },
+  "get_started": {
+    "welcome_title_normal": "Welcome to ",
+    "welcome_title_highlight": "PlantApp",
+    "welcome_subtitle": "Identify more than 3000+ plants and 88% accuracy.",
+    "get_started_button": "Get Started",
+    "terms_text": "By tapping next, you are agreeing to PlantID Terms of Use & Privacy Policy."
   }
 }

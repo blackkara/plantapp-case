@@ -43,5 +43,12 @@
       "faq": "الأسئلة الشائعة",
       "contact_us": "اتصل بنا"
     }
+  },
+  "get_started": {
+    "welcome_title_normal": "أهلاً بك في ",
+    "welcome_title_highlight": "PlantApp",
+    "welcome_subtitle": "تعرف على أكثر من 3000+ نبتة بدقة 88%.",
+    "get_started_button": "ابدأ الآن",
+    "terms_text": "بالنقر على التالي، فإنك توافق على شروط الاستخدام وسياسة الخصوصية الخاصة بـ PlantID."
   }
 }
