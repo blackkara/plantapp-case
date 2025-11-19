@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:plantapp_case/core/di/injection.dart';
 import 'package:plantapp_case/core/theme/app_theme.dart';
 import 'package:plantapp_case/features/home/presentation/bloc/home_bloc.dart';
-import 'package:plantapp_case/features/home/presentation/screens/home_screen.dart';
+import 'package:plantapp_case/core/presentation/screens/main_tab_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -35,7 +35,7 @@ class PlantApp extends StatelessWidget {
       locale: context.locale,
       supportedLocales: context.supportedLocales,
       localizationsDelegates: context.localizationDelegates,
-      home: BlocProvider(create: (context) => getIt<HomeBloc>(), child: const HomeScreen()),
+      home: BlocProvider(create: (context) => getIt<HomeBloc>(), child: const MainTabScreen()),
     );
   }
 }
