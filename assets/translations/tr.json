@@ -23,5 +23,25 @@
     "diagnose": "Teşhis",
     "my_garden": "Bahçem",
     "profile": "Profil"
+  },
+  "clickable_text": {
+    "terms_privacy": {
+      "full_text": "İleri'ye dokunarak PlantID Kullanım Koşulları ve Gizlilik Politikası'nı kabul etmiş olursunuz.",
+      "terms_of_use": "Kullanım Koşulları",
+      "privacy_policy": "Gizlilik Politikası"
+    },
+    "support": {
+      "full_text": "PlantID'ye hoş geldiniz! Lütfen dokümantasyonumuzu okuyun ve yardım için destek ekibimizle iletişime geçin.",
+      "documentation": "dokümantasyonumuzu",
+      "contact_support": "destek ekibimizle iletişime geçin"
+    },
+    "legal": {
+      "full_text": "Bu uygulamayı kullanarak Şartlarımızı, Gizlilik Politikamızı ve Çerez Politikamızı kabul etmiş olursunuz. Sorularınız için SSS sayfamızı ziyaret edin veya bizimle iletişime geçin.",
+      "terms": "Şartlarımızı",
+      "privacy_policy": "Gizlilik Politikamızı",
+      "cookie_policy": "Çerez Politikamızı",
+      "faq": "SSS",
+      "contact_us": "bizimle iletişime geçin"
+    }
   }
 }

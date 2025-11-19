@@ -23,5 +23,25 @@
     "diagnose": "Diagnose",
     "my_garden": "My Garden",
     "profile": "Profile"
+  },
+  "clickable_text": {
+    "terms_privacy": {
+      "full_text": "By tapping next, you are agreeing to PlantID Terms of Use & Privacy Policy.",
+      "terms_of_use": "Terms of Use",
+      "privacy_policy": "Privacy Policy"
+    },
+    "support": {
+      "full_text": "Welcome to PlantID! Please read our documentation and contact support for help.",
+      "documentation": "documentation",
+      "contact_support": "contact support"
+    },
+    "legal": {
+      "full_text": "By using this app, you agree to our Terms, Privacy Policy, and Cookie Policy. For questions, visit our FAQ or contact us.",
+      "terms": "Terms",
+      "privacy_policy": "Privacy Policy",
+      "cookie_policy": "Cookie Policy",
+      "faq": "FAQ",
+      "contact_us": "contact us"
+    }
   }
 }
