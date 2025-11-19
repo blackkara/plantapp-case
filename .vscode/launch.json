@@ -6,6 +6,26 @@
       "request": "launch",
       "type": "dart",
       "program": "lib/main.dart"
+    },
+    {
+      "name": "Widgetbook",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/widgetbook/main.dart",
+      "args": [
+        "-d",
+        "macos"
+      ]
+    },
+    {
+      "name": "Widgetbook (iOS)",
+      "request": "launch", 
+      "type": "dart",
+      "program": "lib/widgetbook/main.dart",
+      "args": [
+        "-d",
+        "ios"
+      ]
     }
   ]
 }
