@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'tab_event.dart';
-import 'tab_state.dart';
+import 'package:plantapp_case/features/navigation/presentation/bloc/tab_event.dart';
+import 'package:plantapp_case/features/navigation/presentation/bloc/tab_state.dart';
 
 @injectable
 class TabBloc extends Bloc<TabEvent, TabState> {

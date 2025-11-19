@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:plantapp_case/core/di/injection.dart';
-import 'package:plantapp_case/core/presentation/bloc/tab_bloc.dart';
-import 'package:plantapp_case/core/presentation/bloc/tab_event.dart';
-import 'package:plantapp_case/core/presentation/bloc/tab_state.dart';
+import 'package:plantapp_case/features/navigation/presentation/bloc/tab_bloc.dart';
+import 'package:plantapp_case/features/navigation/presentation/bloc/tab_event.dart';
+import 'package:plantapp_case/features/navigation/presentation/bloc/tab_state.dart';
 import 'package:plantapp_case/core/theme/app_colors.dart';
 import 'package:plantapp_case/features/home/presentation/screens/home_screen.dart';
 
