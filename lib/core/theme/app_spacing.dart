@@ -12,6 +12,7 @@ class AppSpacing {
   static const double sectionSpacing = 32.0;
   static const double itemSpacing = 12.0;
   static const double greetingGap = 6.0;
+  static const double buttonHeight = 56.0;
 
   static const double searchIconPadding = 16.0;
   static const double searchIconTextGap = 10.0;

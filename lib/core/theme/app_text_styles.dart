@@ -136,4 +136,39 @@ class AppTextStyles {
     letterSpacing: -1,
     color: AppColors.textPrimary,
   );
+
+  static TextStyle premiumTitle = GoogleFonts.roboto(
+    fontSize: 27,
+    fontWeight: FontWeight.w300, // Light
+    height: 1.0, // 100% line height
+    letterSpacing: 0,
+    color: Colors.white,
+  );
+
+  // Premium subtitle style
+  static TextStyle premiumSubtitle = GoogleFonts.roboto(
+    fontSize: 17,
+    fontWeight: FontWeight.w300, // Light
+    height: 24 / 17, // 24px line height
+    letterSpacing: 0.38,
+    color: Colors.white,
+  );
+
+  // Paywall disclaimer text
+  static TextStyle paywallDisclaimer = GoogleFonts.roboto(
+    fontSize: 9,
+    fontWeight: FontWeight.w300, // Light
+    height: 1.32, // 132% line height
+    letterSpacing: 0,
+    color: Colors.white.withValues(alpha: 0.52), // #FFFFFF85
+  );
+
+  // Paywall terms links
+  static TextStyle paywallTermsLinks = GoogleFonts.roboto(
+    fontSize: 11,
+    fontWeight: FontWeight.w400, // Regular
+    height: 1.0, // 100% line height
+    letterSpacing: 0,
+    color: Colors.white.withValues(alpha: 0.5), // #FFFFFF80
+  );
 }

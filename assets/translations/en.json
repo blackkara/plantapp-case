@@ -50,5 +50,30 @@
     "welcome_subtitle": "Identify more than 3000+ plants and 88% accuracy.",
     "get_started_button": "Get Started",
     "terms_text": "By tapping next, you are agreeing to PlantID Terms of Use & Privacy Policy."
+  },
+  "onboarding1": {
+    "title": "Take a photo to identify the plant!",
+    "title_brush_word": "identify",
+    "continue_button": "Continue"
+  },
+  "onboarding2": {
+    "title": "Get plant care guides",
+    "title_brush_words": "care guides",
+    "continue_button": "Continue"
+  },
+  "paywall": {
+    "title": "Premium",
+    "subtitle": "Access All Features",
+    "features": {
+      "unlimited": "Unlimited",
+      "plant_identify": "Plant Identify",
+      "faster": "Faster",
+      "process": "Process",
+      "detailed": "Detailed",
+      "plant_care": "Plant Care"
+    },
+    "try_button": "Try free for 3 days",
+    "disclaimer": "After the 3-day free trial period you'll be charged ₺274.99 per year unless you cancel before the trial expires. Yearly Subscription is Auto-Renewable.",
+    "terms_privacy_restore": "Terms • Privacy • Restore"
   }
 }

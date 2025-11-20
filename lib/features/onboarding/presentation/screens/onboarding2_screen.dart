@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:plantapp_case/design_system/widgets/buttons/app_button.dart';
 import 'package:plantapp_case/design_system/widgets/text/clickable_text.dart';
 import 'package:plantapp_case/core/theme/app_text_styles.dart';
-import 'package:plantapp_case/core/di/injection.dart';
-import 'package:plantapp_case/features/home/presentation/bloc/home_bloc.dart';
-import 'package:plantapp_case/features/navigation/presentation/screens/main_tab_screen.dart';
+import 'package:plantapp_case/core/theme/app_spacing.dart';
+import 'package:plantapp_case/features/onboarding/presentation/screens/paywall_screen.dart';
 
 class Onboarding2Screen extends StatelessWidget {
   const Onboarding2Screen({super.key});
@@ -29,10 +28,10 @@ class Onboarding2Screen extends StatelessWidget {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Padding(
-                    padding: const EdgeInsets.only(top: 46, left: 40),
+                    padding: EdgeInsets.only(top: AppSpacing.xl, left: AppSpacing.xl),
                     child: ClickableText.withBrushEffect(
-                      text: 'Get plant care guides',
-                      brushTexts: ['care guides'],
+                      text: 'onboarding2.title'.tr(),
+                      brushTexts: ['onboarding2.title_brush_words'.tr()],
                       brushImagePath: 'assets/images/brush_stroke.png',
                       onTaps: [null], // No tap action needed
                       defaultStyle: AppTextStyles.onboardingTitleMedium,
@@ -45,19 +44,16 @@ class Onboarding2Screen extends StatelessWidget {
 
                 // Continue Button with padding
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  padding: EdgeInsets.symmetric(horizontal: AppSpacing.md),
                   child: SizedBox(
                     width: double.infinity,
-                    height: 56,
+                    height: AppSpacing.buttonHeight,
                     child: AppButton(
-                      text: 'Continue',
+                      text: 'onboarding2.continue_button'.tr(),
                       onPressed: () {
-                        Navigator.of(context).pushReplacement(
+                        Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => BlocProvider(
-                              create: (context) => getIt<HomeBloc>(),
-                              child: const MainTabScreen(),
-                            ),
+                            builder: (context) => const PaywallScreen(),
                           ),
                         );
                       },
@@ -65,33 +61,33 @@ class Onboarding2Screen extends StatelessWidget {
                   ),
                 ),
 
-                const SizedBox(height: 24),
+                SizedBox(height: AppSpacing.lg),
 
                 // Slider dots indicator
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      width: 8,
-                      height: 8,
-                      decoration: const BoxDecoration(
-                        color: Colors.grey,
+                      width: AppSpacing.xs,
+                      height: AppSpacing.xs,
+                      decoration: BoxDecoration(
+                        color: Colors.grey.withValues(alpha: 0.5),
                         shape: BoxShape.circle,
                       ),
                     ),
-                    const SizedBox(width: 8),
+                    SizedBox(width: AppSpacing.sm),
                     Container(
-                      width: 8,
-                      height: 8,
-                      decoration: const BoxDecoration(
-                        color: Colors.grey,
+                      width: AppSpacing.xs,
+                      height: AppSpacing.xs,
+                      decoration: BoxDecoration(
+                        color: Colors.grey.withValues(alpha: 0.5),
                         shape: BoxShape.circle,
                       ),
                     ),
-                    const SizedBox(width: 8),
+                    SizedBox(width: AppSpacing.sm),
                     Container(
-                      width: 8,
-                      height: 8,
+                      width: AppSpacing.xs,
+                      height: AppSpacing.xs,
                       decoration: const BoxDecoration(
                         color: Colors.black,
                         shape: BoxShape.circle,
@@ -100,7 +96,7 @@ class Onboarding2Screen extends StatelessWidget {
                   ],
                 ),
 
-                const SizedBox(height: 32),
+                SizedBox(height: AppSpacing.xl),
               ],
             ),
           ),

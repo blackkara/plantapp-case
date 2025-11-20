@@ -50,5 +50,30 @@
     "welcome_subtitle": "3000+ bitkiyi %88 doğrulukla tanımlayın.",
     "get_started_button": "Başlayın",
     "terms_text": "İleri'ye dokunarak PlantID Kullanım Koşulları ve Gizlilik Politikası'nı kabul etmiş olursunuz."
+  },
+  "onboarding1": {
+    "title": "Bitkiyi tanımlamak için fotoğraf çekin!",
+    "title_brush_word": "tanımlamak",
+    "continue_button": "Devam"
+  },
+  "onboarding2": {
+    "title": "Bitki bakım rehberleri alın",
+    "title_brush_words": "bakım rehberleri",
+    "continue_button": "Devam"
+  },
+  "paywall": {
+    "title": "Premium",
+    "subtitle": "Tüm Özellikler",
+    "features": {
+      "unlimited": "Sınırsız",
+      "plant_identify": "Bitki Tanımlama",
+      "faster": "Daha Hızlı",
+      "process": "İşlem",
+      "detailed": "Detaylı",
+      "plant_care": "Bitki Bakımı"
+    },
+    "try_button": "3 gün ücretsiz deneyin",
+    "disclaimer": "3 günlük ücretsiz deneme süresinden sonra, iptal etmediğiniz takdirde yıllık ₺274,99 ücretlendirilirsiniz. Yıllık Abonelik Otomatik Yenilenir.",
+    "terms_privacy_restore": "Koşullar • Gizlilik • Geri Yükle"
   }
 }
